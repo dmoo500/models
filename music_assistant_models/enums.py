@@ -583,6 +583,8 @@ class ProviderFeature(StrEnum):
     PLAYLIST_CREATE_PODCAST_EPISODES = "playlist_create_podcast_episodes"  # with podcast episodes
     PLAYLIST_CREATE_RADIOS = "playlist_create_radios"  # with radios
     PLAYLIST_CREATE_MIXED = "playlist_create_mixed"  # media types of created playlist may be mixed
+    # can generate/provide artwork for playlists - can also be declared by a plugin or metadata provider
+    PLAYLIST_ARTWORK = "playlist_artwork"
 
     #
     # PLAYERPROVIDER FEATURES
